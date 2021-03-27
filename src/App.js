@@ -5,6 +5,7 @@ import selfPhoto from './components/image13540.jpg';
 import selfPhoto2 from './components/IMG_20210207_180215_373.jpg';
 import selfPhoto3 from './components/IMG_20210206_215900_601.jpg';
 import SocialMedia from "./SocialMedia"
+import React, { Component } from "react";
 
 const App = () => {
   const fun_facts = ["I love watching action movies", 
@@ -30,7 +31,7 @@ const App = () => {
       <h3>I'm currently a 
           freshman at UNC studying computer science. Some of fun facts about me:</h3>
         {makeList()} 
-      <div class="container">
+       <div class="container">
         <div id="content">{/* <ReactMarkdown source={lesson_one} /> */}</div>
         <div class="image">
           <img src={ selfPhoto3 } width="375" alt=""/>

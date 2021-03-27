@@ -159,6 +159,9 @@ img {
   max-width: 100%;
   margin: 0 0.5rem;
   transition: transform 300ms;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
 }
 
 img:hover {
